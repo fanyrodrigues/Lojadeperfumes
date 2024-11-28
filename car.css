@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbdef7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header estilizado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #53094c; /* Cor roxa ajustada */
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+p {
+    font-family: 'chique';
+    font-size: 40px;
+    text-align:center;
+    margin: 0 auto;
+}
+
+
+
+.capa {
+    width: 100%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+button {
+    background-color: #7f046e; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #670b47; 
+}
+
+
+footer {
+    background-color: #b460a2; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: relative;
+}

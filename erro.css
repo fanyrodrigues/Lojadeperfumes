@@ -1,0 +1,28 @@
+.error-message {
+    color: #d2b6db; /* Cor mais escura para melhorar a leitura */
+    font-size: 18px;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #ffe6e9; /* Fundo mais claro */
+    padding: 10px;
+    border: 1px solid #f5c2c7;
+    border-radius: 5px;
+    max-width: 600px; /* Limita a largura da mensagem */
+}
+
+.btn {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #57334f; /* Tom menos vibrante */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s; /* Adiciona transição suave */
+}
+
+.btn:hover {
+    background-color: #940094; /* Cor mais escura ao passar o mouse */
+}
+

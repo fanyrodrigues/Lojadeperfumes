@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'chique';
+    src: url(../lojadeperfumes/fontes/Mea_Culpa/MeaCulpa-Regular.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fbdef7;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header estilizado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7d1874; /* Cor roxa ajustada */
+    padding: 20px;
+    color: rgb(218, 179, 210);
+}
+
+.logo img {
+    width: 150px;
+}
+h1 {
+    font-family: 'chique';
+    font-size: 80px;
+    text-align:right;
+    margin: 0 auto;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre os itens */
+    justify-content: center; /* Centraliza horizontalmente */
+    padding: 20px;
+    align-items: center;
+}
+
+.fragrancias {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px; 
+    transition: transform 0.2s;
+}
+.fragancia img {
+    width:220px;
+}
+
+
+.fragrancias:hover {
+    transform: scale(1.05); 
+}
+
+
+.capa {
+    width: 100%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+button {
+    background-color: #7f046e; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #670b47; 
+}
+
+
+footer {
+    background-color: #b460a2; 
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    position: relative;
+}
